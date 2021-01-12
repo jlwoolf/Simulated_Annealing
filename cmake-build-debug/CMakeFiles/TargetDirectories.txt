@@ -1,0 +1,3 @@
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/cmake-build-debug/CMakeFiles/SimulatedAnnealing.dir
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
