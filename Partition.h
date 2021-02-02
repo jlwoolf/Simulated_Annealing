@@ -43,6 +43,7 @@ public:
 
     void setInput(const std::string& filename);
     void generateInput(int size);
+    void generateInput(int size, int sets);
 
     static cost getSolutionCost(const std::list<std::list<Point>>& solution);
     static cost getSetCost(std::list<Point> set);

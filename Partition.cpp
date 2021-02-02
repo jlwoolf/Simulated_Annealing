@@ -43,6 +43,11 @@ void Partition::generateInput(int size) {
     }
 }
 
+void Partition::generateInput(int size, int sets) {
+    numSets = sets;
+    generateInput(size);
+}
+
 Partition::cost Partition::getSolutionCost(const std::list<std::list<Point>>& solution) {
     cost maxCost;
     for(const std::list<Point>& set : solution) {
@@ -146,7 +151,7 @@ std::list<std::list<Point>> Partition::modifySolutionRandomly() {
 
 void Partition::simulate(int steps, int restarts) {
 
-';ljkk'    currentSolution = generateRandomSolution();
+    currentSolution = generateRandomSolution();
     bestSolution = currentSolution;
 
     cost currentCost = getSolutionCost(currentSolution);

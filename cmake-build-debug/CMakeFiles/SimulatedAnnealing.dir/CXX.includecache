@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.cpp
+Partition.h
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.h
+utility
+-
+
 C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.h
 list
 -
@@ -36,6 +42,10 @@ numeric
 
 C:/Users/jonat/Documents/C++/SimulatedAnnealing/main.cpp
 iostream
+-
+cstring
+-
+cerrno
 -
 Partition.h
 C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.h
