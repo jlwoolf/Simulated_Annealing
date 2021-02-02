@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.cpp">
+			<Option target="SimulatedAnnealing"/>
+		</Unit>
+		<Unit filename="C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.h">
+			<Option target="SimulatedAnnealing"/>
+		</Unit>
+		<Unit filename="C:/Users/jonat/Documents/C++/SimulatedAnnealing/Point.cpp">
+			<Option target="SimulatedAnnealing"/>
+		</Unit>
+		<Unit filename="C:/Users/jonat/Documents/C++/SimulatedAnnealing/Point.h">
+			<Option target="SimulatedAnnealing"/>
+		</Unit>
 		<Unit filename="C:/Users/jonat/Documents/C++/SimulatedAnnealing/main.cpp">
 			<Option target="SimulatedAnnealing"/>
 		</Unit>

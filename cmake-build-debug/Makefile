@@ -142,6 +142,60 @@ SimulatedAnnealing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/build
 .PHONY : SimulatedAnnealing/fast
 
+Partition.obj: Partition.cpp.obj
+
+.PHONY : Partition.obj
+
+# target to build an object file
+Partition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/Partition.cpp.obj
+.PHONY : Partition.cpp.obj
+
+Partition.i: Partition.cpp.i
+
+.PHONY : Partition.i
+
+# target to preprocess a source file
+Partition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/Partition.cpp.i
+.PHONY : Partition.cpp.i
+
+Partition.s: Partition.cpp.s
+
+.PHONY : Partition.s
+
+# target to generate assembly for a file
+Partition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/Partition.cpp.s
+.PHONY : Partition.cpp.s
+
+Point.obj: Point.cpp.obj
+
+.PHONY : Point.obj
+
+# target to build an object file
+Point.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/Point.cpp.obj
+.PHONY : Point.cpp.obj
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimulatedAnnealing.dir\build.make CMakeFiles/SimulatedAnnealing.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SimulatedAnnealing
+	@echo ... Partition.obj
+	@echo ... Partition.i
+	@echo ... Partition.s
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

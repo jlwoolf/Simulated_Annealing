@@ -3,4 +3,4 @@ project(SimulatedAnnealing)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SimulatedAnnealing main.cpp)
+add_executable(SimulatedAnnealing main.cpp Point.cpp Point.h Partition.cpp Partition.h)

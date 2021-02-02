@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.h
+list
+-
+string
+-
+fstream
+-
+random
+-
+ctime
+-
+algorithm
+-
+Point.h
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/Point.h
+
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/Point.h
+cmath
+-
+fstream
+-
+iostream
+-
+list
+-
+numeric
+-
+
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/main.cpp
+iostream
+-
+Partition.h
+C:/Users/jonat/Documents/C++/SimulatedAnnealing/Partition.h
+
